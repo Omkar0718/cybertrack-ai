@@ -4,6 +4,35 @@
 
 CyberTrace AI is a defensive cybersecurity investigation tool that analyses system logs, identifies suspicious activity, maps potential attack techniques, and generates structured investigation reports using a locally running AI model.
 
+## System Architecture
+
+```mermaid
+flowchart TD
+    A["Log Sources<br/>Windows EVTX / JSON"] --> B["Log Processing<br/>EVTX Parser / JSON Parser"]
+
+    B --> C["Detection Engine<br/>Rule-Based Detection"]
+    C --> D["Attack Classifier<br/>MITRE ATT&CK / Cyber Kill Chain"]
+
+    D --> E["AI Investigator<br/>Ollama / Llama 3.2"]
+
+    E --> F["Streamlit Dashboard<br/>Findings / Timeline / AI Analysis"]
+    E --> G["PDF Reporting Engine<br/>Investigation Report"]
+
+    F --> H["Security Analyst"]
+    G --> H
+
+    classDef input fill:#243447,stroke:#38b2ac,color:#ffffff
+    classDef process fill:#1e3a4a,stroke:#38b2ac,color:#ffffff
+    classDef ai fill:#134e4a,stroke:#2dd4bf,color:#ffffff
+    classDef output fill:#263b35,stroke:#4ade80,color:#ffffff
+
+    class A input
+    class B,C,D process
+    class E ai
+    class F,G,H output
+```
+
+
 ## 🚀 Features
 
 - **Log Processing:** Supports Windows EVTX and JSON log files.
