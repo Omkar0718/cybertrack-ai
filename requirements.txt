@@ -1,0 +1,4 @@
+python-evtx
+ollama
+reportlab
+streamlit

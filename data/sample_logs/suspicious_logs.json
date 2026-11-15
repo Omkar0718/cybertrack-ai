@@ -1,0 +1,48 @@
+
+[
+  {
+    "timestamp": "2026-11-15T11:00:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4625,
+    "event_type": "failed_login",
+    "username": "admin",
+    "source_ip": "192.168.1.50",
+    "description": "Failed login attempt"
+  },
+  {
+    "timestamp": "2026-11-15T11:01:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4625,
+    "event_type": "failed_login",
+    "username": "admin",
+    "source_ip": "192.168.1.50",
+    "description": "Failed login attempt"
+  },
+  {
+    "timestamp": "2026-11-15T11:02:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4625,
+    "event_type": "failed_login",
+    "username": "admin",
+    "source_ip": "192.168.1.50",
+    "description": "Failed login attempt"
+  },
+  {
+    "timestamp": "2026-11-15T11:05:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4624,
+    "event_type": "successful_login",
+    "username": "admin",
+    "source_ip": "192.168.1.50",
+    "description": "Successful login after previous failures"
+  },
+  {
+    "timestamp": "2026-11-15T11:10:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4720,
+    "event_type": "account_created",
+    "username": "admin",
+    "source_ip": null,
+    "description": "A new user account was created"
+  }
+]

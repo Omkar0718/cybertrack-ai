@@ -1,0 +1,30 @@
+
+[
+  {
+    "timestamp": "2026-11-15T09:00:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4624,
+    "event_type": "successful_login",
+    "username": "user1",
+    "source_ip": "192.168.1.10",
+    "description": "Successful user login"
+  },
+  {
+    "timestamp": "2026-11-15T09:15:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4688,
+    "event_type": "process_creation",
+    "username": "user1",
+    "source_ip": null,
+    "description": "A new process was created"
+  },
+  {
+    "timestamp": "2026-11-15T10:00:00",
+    "computer": "DESKTOP-001",
+    "event_id": 4624,
+    "event_type": "successful_login",
+    "username": "user1",
+    "source_ip": "192.168.1.10",
+    "description": "Successful user login"
+  }
+]
